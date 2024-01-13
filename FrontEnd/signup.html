@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Booking</title>
+    <link rel="stylesheet" href="/FrontEnd/cssfile/signup.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo">
+            <img src="/images/images.png" alt="hotel logo">
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a class="active" href="signup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="signup-form">
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+            <label for="signup-username">Username:</label>
+            <input type="text" id="signup-username" required>
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" required>
+            <button type="button" onclick="signup()">Sign Up</button>
+        </form>
+    </div>
+    <script src="./authen.js"></script>
+</body>
+
+</html>
